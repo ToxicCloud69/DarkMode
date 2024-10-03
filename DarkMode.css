@@ -62,7 +62,6 @@
 		.sidebar_a4d4d9 { width: 210px; }
 
 	/* REMOVE UNNECESSARY THINGS */
-
 		/* remove discord watermark	*/ .withFrame_a934d8.titleBar_a934d8.withBackgroundOverride_a934d8 > div.wordmarkWindows_a934d8.wordmark_a934d8,
 		/* activity button		*/ .actionButtons_adcaac > button:nth-child(3),
 		/* memberlist acitivities	*/ [class^='membersGroup']:has([role=button]), [class^='member'] [class^='container']:has([class*='badges']),
@@ -74,14 +73,12 @@
 		{ display: none !important; }
 
 	/* SERVER LIST */
-		
 		/* reposition underline */
 		.listItem_c96c45 [class*=pill] {
 			overflow: visible !important;
 			margin: 63px 0 0 21px !important;
 			transform: scaleY(-1) rotate(90deg) !important;
 		}
-
 		/* add glow */
 		:root {
 			--server-unread-color: 255, 255, 255;
@@ -109,14 +106,12 @@
 		}
 
 	/* USER AREA */
-
 		/* User profile reposition */
 		[class^=avatarWrapper], [class^=container] > [class*=buttons] {
 			margin-right: unset !important;
 			margin-left: unset !important;
 			justify-content: space-evenly !important;
 		}
-		
 		/* Settings reposition */
 		[class^=panels] > [class^=container] {
 			height: unset !important;
@@ -125,10 +120,8 @@
 			flex-direction: column-reverse !important;
 			gap: 2px !important;
 		}
-		
 		/* Voice status text */
 		.rtcConnectionStatus_c02c63 { padding-bottom: 6px; }
-
 		/* Custom separators */
 		.alignStretch_ec1a20.buttons_b2ca13 {
 			border-top: 2px solid rgb(25, 25, 25) !important;
@@ -144,7 +137,6 @@
 			padding: 10px 0 4px;
 			border-top: 2px solid rgb(25, 25, 25);
 		}
-
 		/* Buttons */
 		.button_adcaac.buttonColor_adcaac { background-color: rgb(20, 20, 20); }
 		.lookFilled_dd4f85 .contents_dd4f85, .lookLink_dd4f85 { margin: 7px; }
