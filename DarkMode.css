@@ -57,14 +57,10 @@
 /* CUSTOM CSS */
 
 	/* ZERO MARGIN ON-TOP FOR TITLEBAR */
-		.platform-win .typeWindows_a934d8 {
-		top: 0;
-	}
+		.platform-win .typeWindows_a934d8 { top: 0; }
 
 	/* CHANNEL LIST RESIZE */
-		.sidebar_a4d4d9 {
-		width: 210px;
-	}
+		.sidebar_a4d4d9 { width: 210px; }
 
 	/* REMOVE UNNECESSARY THINGS */
 
@@ -75,7 +71,8 @@
 		/* stickers			*/ .buttons_d0696b > div:nth-child(3),
 		/* gift nitro			*/ .buttons_d0696b > button,
 		/* nitro			*/ .fade_eed6a8 > ul > li:nth-child(3),
-		/* shop				*/ .scrollerBase_eed6a8.fade_eed6a8 > ul > li:nth-child(4) { display: none !important; }
+		/* shop				*/ .scrollerBase_eed6a8.fade_eed6a8 > ul > li:nth-child(4) 
+		{ display: none !important; }
 
 	/* SERVER LIST */
 		
@@ -131,9 +128,7 @@
 		}
 		
 		/* Voice status text */
-		.rtcConnectionStatus_c02c63 {
-			padding-bottom: 6px;
-		}
+		.rtcConnectionStatus_c02c63 { padding-bottom: 6px; }
 
 		/* Custom separators */
 		.alignStretch_ec1a20.buttons_b2ca13 {
@@ -152,9 +147,5 @@
 		}
 
 		/* Buttons */
-		.button_adcaac.buttonColor_adcaac {
-			background-color: rgb(20, 20, 20);
-		}
-		.lookFilled_dd4f85 .contents_dd4f85, .lookLink_dd4f85 {
-			margin: 7px;
-		}
+		.button_adcaac.buttonColor_adcaac { background-color: rgb(20, 20, 20); }
+		.lookFilled_dd4f85 .contents_dd4f85, .lookLink_dd4f85 { margin: 7px; }
