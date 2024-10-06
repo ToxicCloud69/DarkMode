@@ -61,7 +61,7 @@
 		/* memberlist acitivities	*/ [class^='membersGroup']:has([role=button]), [class^='member'] [class^='container']:has([class*='badges']),
 		/* discover button		*/ [class^=listItem_]:has([data-list-item-id="guildsnav___guild-discover-button"]),
 		/* stickers			*/ .buttons_d0696b > div:nth-child(3),
-		/* gift nitro			*/ .buttons_d0696b > button,
+		/* gift nitro			*/ .appAsidePanelWrapper_bd26cc > div.notAppAsidePanel_bd26cc > div.app_bd26cc > div > div.layers_d4b6c5.layers_a01fb1 > div > div > div > div > div.chat_a7d72e > div.content_a7d72e > main > form > div > div.channelTextArea_a7d72e.channelTextArea_d0696b > div > div > div.buttons_d0696b > div.container_efde15,
 		/* nitro			*/ .fade_eed6a8 > ul > li:nth-child(3),
 		/* shop				*/ .scrollerBase_eed6a8.fade_eed6a8 > ul > li:nth-child(4) 
 		{ display: none !important; }
