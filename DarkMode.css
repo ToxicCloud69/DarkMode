@@ -8,42 +8,42 @@
 
 :root {
 	/* DISCORD RECOLOR THEME */
-	--settingsicons:		1;		/*| Custom setting icons			| DEFAULT: 1		| OPTIONS: 1, 0 */
+	--settingsicons:		1;		/*| Custom setting icons		| DEFAULT: 1		| OPTIONS: 1, 0 */
 
-	--accentcolor:			046,005,098;	/*| Blurple					| DEFAULT: 255,000,000	|*/
-	--linkcolor:			046,005,098;	/*| Link color					| DEFAULT: 255,000,000	|*/
-	--mentioncolor:			046,005,098;	/*| Highlight color				| DEFAULT: 255,000,000	|*/
-	--accentcolor2:			255,115,250;	/*| Boostpink					| DEFAULT: 255,115,250	|*/
+	--accentcolor:			046,005,098;	/*| Blurple				| DEFAULT: 255,000,000	|*/
+	--linkcolor:			046,005,098;	/*| Link color				| DEFAULT: 255,000,000	|*/
+	--mentioncolor:			046,005,098;	/*| Highlight color			| DEFAULT: 255,000,000	|*/
+	--accentcolor2:			255,115,250;	/*| Boostpink				| DEFAULT: 255,115,250	|*/
 
-	--textbrightest:		255,255,255;	/*| Text Color 1				| DEFAULT: 255,255,255	|*/
-	--textbrighter:			222,222,222;	/*| Text Color 2				| DEFAULT: 222,222,222	|*/
-	--textbright:			185,185,185;	/*| Text Color 3				| DEFAULT: 185,185,185	|*/
-	--textdark:			140,140,140;	/*| Text Color 4				| DEFAULT: 140,140,140	|*/
-	--textdarker:			115,115,115;	/*| Text Color 5				| DEFAULT: 115,115,115	|*/
-	--textdarkest:			080,080,080;	/*| Text Color 6				| DEFAULT: 080,080,080	|*/
+	--textbrightest:		255,255,255;	/*| Text Color 1			| DEFAULT: 255,255,255	|*/
+	--textbrighter:			222,222,222;	/*| Text Color 2			| DEFAULT: 222,222,222	|*/
+	--textbright:			185,185,185;	/*| Text Color 3			| DEFAULT: 185,185,185	|*/
+	--textdark:			140,140,140;	/*| Text Color 4			| DEFAULT: 140,140,140	|*/
+	--textdarker:			115,115,115;	/*| Text Color 5			| DEFAULT: 115,115,115	|*/
+	--textdarkest:			080,080,080;	/*| Text Color 6			| DEFAULT: 080,080,080	|*/
 
-	--backgroundaccent:		000,000,000;	/*| Background accent				| DEFAULT: 000,000,000	|*/
-	--backgroundprimary:		008,007,008;	/*| Background 1				| DEFAULT: 005,005,005	|*/
-	--backgroundsecondary:		000,000,000;	/*| Background 2				| DEFAULT: 005,005,005	|*/
-	--backgroundsecondaryalt:	000,000,000;	/*| Background 3				| DEFAULT: 003,003,003	|*/
-	--backgroundtertiary:		014,013,014;	/*| Background 4				| DEFAULT: 010,010,010	|*/
-	--backgroundfloating:		000,000,000;	/*| Background elevated				| DEFAULT: 000,000,000	|*/
+	--backgroundaccent:		000,000,000;	/*| Background accent			| DEFAULT: 000,000,000	|*/
+	--backgroundprimary:		008,007,008;	/*| Background 1			| DEFAULT: 005,005,005	|*/
+	--backgroundsecondary:		000,000,000;	/*| Background 2			| DEFAULT: 005,005,005	|*/
+	--backgroundsecondaryalt:	000,000,000;	/*| Background 3			| DEFAULT: 003,003,003	|*/
+	--backgroundtertiary:		014,013,014;	/*| Background 4			| DEFAULT: 010,010,010	|*/
+	--backgroundfloating:		000,000,000;	/*| Background elevated			| DEFAULT: 000,000,000	|*/
 
 	/* HORIZONTAL SERVER LIST SETTINGS */
-	--HSL-server-icon-size:		46px;		/*| Size of the server icons			| DEFAULT: 40px		|*/
-	--HSL-server-spacing:		10px;		/*| Spacing between each server icon		| DEFAULT: 10px		|*/
-	--HSL-server-direction:		column;		/*| Direction of the server list.		| DEFAULT: column	| OPTIONS: column, column-reverse	*/
-	--HSL-server-alignment:		flex-start;	/*| Alignment of the server list.		| DEFAULT: flex-start	| OPTIONS: flex-start, center, flex-end	*/
+	--HSL-server-icon-size:		46px;		/*| Size of the server icons		| DEFAULT: 40px		|*/
+	--HSL-server-spacing:		10px;		/*| Spacing between each server icon	| DEFAULT: 10px		|*/
+	--HSL-server-direction:		column;		/*| Direction of the server list.	| DEFAULT: column	| OPTIONS: column, column-reverse	*/
+	--HSL-server-alignment:		flex-start;	/*| Alignment of the server list.	| DEFAULT: flex-start	| OPTIONS: flex-start, center, flex-end	*/
 
 	/* FLOATING SETTING MODAL SETTINGS */
-	--settingsbackground:		transparent;	/*| Settings modal background			| DEFAULT: Transparent	|*/
-	--settingswidth:		1000;		/*| Settings width				| DEFAULT: 960		|*/
-	--settingsheight:		85;		/*| Settings height				| DEFAULT: 80		|*/
+	--settingsbackground:		transparent;	/*| Settings modal background		| DEFAULT: Transparent	|*/
+	--settingswidth:		1000;		/*| Settings width			| DEFAULT: 960		|*/
+	--settingsheight:		85;		/*| Settings height			| DEFAULT: 80		|*/
 
 	/* WINDOWS TITLEBAR BUTTON SETTINGS */
-	--TB-height: 			30px;		/*| Title bar button height			| DEFAULT: 33px		|*/
-	--TB-width: 			45px;		/*| Title bar button width			| DEFAULT: 45px		|*/
-	--TB-header-padding:		7px;		/*| The padding on the right of Inbox		| DEFAULT: 125px	|*/
+	--TB-height: 			30px;		/*| Title bar button height		| DEFAULT: 33px		|*/
+	--TB-width: 			45px;		/*| Title bar button width		| DEFAULT: 45px		|*/
+	--TB-header-padding:		7px;		/*| The padding on the right of Inbox	| DEFAULT: 125px	|*/
 	--TB-bar-height:		15px;
 	}
 
@@ -53,7 +53,7 @@
 		.platform-win .typeWindows_a934d8 { top: 0; }
 
 	/* CHANNEL LIST RESIZE */
-		.sidebar_a4d4d9 { width: 210px; }
+		.sidebar_a4d4d9 { width: 200px; }
 
 	/* REMOVE UNNECESSARY THINGS */
 		/* remove discord watermark	*/ .withFrame_a934d8.titleBar_a934d8.withBackgroundOverride_a934d8 > div.wordmarkWindows_a934d8.wordmark_a934d8,
@@ -115,20 +115,20 @@
 			gap: 2px !important;
 		}
 		/* Voice status text */
-		.rtcConnectionStatus_c02c63 { padding-bottom: 6px; }
+		.rtcConnectionStatus_c02c63 { padding-bottom: 4px; }
 		/* Custom separators */
 		.alignStretch_ec1a20.buttons_b2ca13 {
 			border-top: 2px solid rgb(25, 25, 25) !important;
 			border-bottom: 2px solid rgb(25, 25, 25) !important;
-			padding-top: 2px !important;
-			padding-bottom: 2px !important;
+			padding-top: 1px !important;
+			padding-bottom: 1px !important;
 		}
 		.container_adcaac, .theme-dark .panel_bf1a22 {
 			border-bottom: none;
-			padding-bottom: 2px;
+			padding-bottom: 1px;
 		}
 		.connection_adcaac {
-			padding: 10px 0 4px;
+			padding: 6px 0 4px;
 			border-top: 2px solid rgb(25, 25, 25);
 		}
 		/* Buttons */
