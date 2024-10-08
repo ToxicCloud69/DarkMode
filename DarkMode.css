@@ -122,8 +122,8 @@
 		.rtcConnectionStatus_c02c63 { padding-bottom: 4px; }
 		/* Custom separators */
 		.alignStretch_ec1a20.buttons_b2ca13 {
-			border-top: 2px solid rgb(25, 25, 25) !important;
-			border-bottom: 2px solid rgb(25, 25, 25) !important;
+			border-top: 1px solid rgb(25, 25, 25) !important;
+			border-bottom: 1px solid rgb(25, 25, 25) !important;
 		}
 		.container_adcaac, .theme-dark .panel_bf1a22 {
 			border-bottom: none;
@@ -131,7 +131,7 @@
 		}
 		.connection_adcaac {
 			padding: 6px 0 4px;
-			border-top: 2px solid rgb(25, 25, 25);
+			border-top: 1px solid rgb(25, 25, 25);
 		}
 		/* Buttons */
 		.button_adcaac.buttonColor_adcaac { background-color: rgb(20, 20, 20); }
