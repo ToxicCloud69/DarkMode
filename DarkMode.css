@@ -70,7 +70,7 @@
 		/* reposition underline */
 		.listItem_c96c45 [class*=pill] {
 			overflow: visible !important;
-			margin: 56px 0 0 19px !important;
+			margin: 56px 0 0 18px !important;
 			transform: scaleY(-1) rotate(90deg) !important;
 		}
 		/* add glow */
