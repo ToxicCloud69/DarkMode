@@ -30,7 +30,7 @@
 	--backgroundfloating:		000,000,000;	/*| Background elevated			| DEFAULT: 000,000,000	|*/
 
 	/* HORIZONTAL SERVER LIST SETTINGS */
-	--HSL-server-icon-size:		46px;		/*| Size of the server icons		| DEFAULT: 40px		|*/
+	--HSL-server-icon-size:		40px;		/*| Size of the server icons		| DEFAULT: 40px		|*/
 	--HSL-server-spacing:		10px;		/*| Spacing between each server icon	| DEFAULT: 10px		|*/
 	--HSL-server-direction:		column;		/*| Direction of the server list.	| DEFAULT: column	| OPTIONS: column, column-reverse	*/
 	--HSL-server-alignment:		flex-start;	/*| Alignment of the server list.	| DEFAULT: flex-start	| OPTIONS: flex-start, center, flex-end	*/
@@ -70,7 +70,7 @@
 		/* reposition underline */
 		.listItem_c96c45 [class*=pill] {
 			overflow: visible !important;
-			margin: 63px 0 0 21px !important;
+			margin: 56px 0 0 19px !important;
 			transform: scaleY(-1) rotate(90deg) !important;
 		}
 		/* add glow */
