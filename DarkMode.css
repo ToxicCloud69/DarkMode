@@ -53,7 +53,7 @@
 		.platform-win .typeWindows_a934d8 { top: 0; }
 
 	/* CHANNEL LIST RESIZE */
-		.sidebar_a4d4d9 { width: 200px; }
+		#app-mount .sidebar_a4d4d9 { width: 200px !important; }
 
 	/* REMOVE UNNECESSARY THINGS */
 		/* remove discord watermark	*/ .withFrame_a934d8.titleBar_a934d8.withBackgroundOverride_a934d8 > div.wordmarkWindows_a934d8.wordmark_a934d8,
