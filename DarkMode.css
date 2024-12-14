@@ -57,9 +57,8 @@
 
 	/* REMOVE UNNECESSARY THINGS */
 		/* remove discord watermark	*/ .withFrame_a934d8.titleBar_a934d8.withBackgroundOverride_a934d8 > div.wordmarkWindows_a934d8.wordmark_a934d8,
-		/* activity button		*/ .actionButtons_adcaac > button:nth-child(3),
+		/* activity button		*/ button[aria-label="Start An Activity"],
 		/* memberlist acitivities	*/ [class^='membersGroup']:has([role=button]), [class^='member'] [class^='container']:has([class*='badges']),
-		/* discover button		*/ [class^=listItem_]:has([data-list-item-id="guildsnav___guild-discover-button"]),
 		/* stickers			*/ .buttons_bdf0de > div:nth-child(4),
 		/* gift nitro			*/ .buttons_bdf0de > button,
 		/* nitro			*/ .fade_eed6a8 > ul > li:nth-child(3),
